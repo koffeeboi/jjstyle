@@ -18,18 +18,18 @@ let s:R1 = [ '#ffffff' , '#ff0000' , 231 , 196 ]
 let s:R2 = [ '#ffffff' , '#ff5f5f' , 231 , 203 ]
 let s:R3 = [ '#333333' , '#efefef' , 59  , 255 ]
 
-let g:airline#themes#personal#palette = {}
-let g:airline#themes#personal#palette.normal  = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
-let g:airline#themes#personal#palette.insert  = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
-let g:airline#themes#personal#palette.visual  = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
-let g:airline#themes#personal#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
+let g:airline#themes#jjstyle_airline#palette = {}
+let g:airline#themes#jjstyle_airline#palette.normal  = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
+let g:airline#themes#jjstyle_airline#palette.insert  = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
+let g:airline#themes#jjstyle_airline#palette.visual  = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
+let g:airline#themes#jjstyle_airline#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
 " Inactive mode
 let s:IN1 = [ '#9e9e9e' , '#9e9e9e' , 247 , 247 ]
 let s:IN2 = [ '#efefef' , '#efefef' , 255 , 255 ]
 
 let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
-let g:airline#themes#personal#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+let g:airline#themes#jjstyle_airline#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
 " CtrlP
 if !get(g:, 'loaded_ctrlp', 0)
@@ -40,10 +40,10 @@ let s:CP1 =  [ '#ffffff' , '#5f00af' , 231 , 55  ]
 let s:CP2 =  [ '#ffffff' , '#875fd7' , 231 , 98  ]
 let s:CP3 =  [ '#5f00af' , '#ffffff' , 55  , 231 ]
 
-let g:airline#themes#personal#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(s:CP1, s:CP2, s:CP3)
+let g:airline#themes#jjstyle_airline#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(s:CP1, s:CP2, s:CP3)
 
 " Tabline
-let g:airline#themes#personal#palette.tabline = {
+let g:airline#themes#jjstyle_airline#palette.tabline = {
       \ 'airline_tab':     [ '#ffffff' , '#5f00af' , 231 , 55  , '' ],
       \ 'airline_tabsel':  [ '#ffffff' , '#875fd7' , 231 , 98  , '' ],
       \ 'airline_tabtype': [ '#ffffff' , '#875fd7' , 231 , 98  , '' ],

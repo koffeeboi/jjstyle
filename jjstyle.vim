@@ -6,7 +6,7 @@ if exists("syntax_on")
  syntax reset
 endif
 
-let colors_name = "personal"
+let colors_name = "jjstyle"
 
 hi Normal               guifg=#1e1d1e guibg=#d2c5c2
 hi ErrorMsg             guifg=#1e1d1e guibg=red  
@@ -42,6 +42,7 @@ hi DiffText             gui=bold guibg=Red
 hi Cursor               guifg=#1e1d1e guibg=green 
 "hi lCursor              guifg=white guibg=black 
 hi CursorLine           gui=reverse
+hi Cursor gui=NONE guibg=darkorange
 
 hi Comment              guifg=darkgreen 
 hi Constant             guifg=#1e1d1e

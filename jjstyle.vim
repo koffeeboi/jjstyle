@@ -55,6 +55,6 @@ hi Underlined           cterm=underline term=underline
 hi Ignore               guifg=#1e1d1e 
 
 hi Pmenu                guifg=#1e1d1e guibg=white
-hi PmenuSel             guifg=#1e1d1e guibg=white
+hi PmenuSel             guifg=#1e1d1e guibg=orange
 hi PmenuSbar            guifg=#1e1d1e guibg=darkgray
 hi PmenuThumb           guifg=#1e1d1e

@@ -42,15 +42,15 @@ hi DiffText             gui=bold guibg=Red
 hi Cursor               guifg=#1e1d1e guibg=green 
 "hi lCursor              guifg=white guibg=black 
 hi CursorLine           gui=reverse
-hi Cursor gui=NONE guibg=darkorange
+hi Cursor               gui=NONE guibg=darkorange
 
 hi Comment              guifg=darkgreen 
-hi Constant             guifg=#1e1d1e
+hi Constant             guifg=#800080
 hi Special              guifg=#1e1d1e gui=none
 hi Identifier           guifg=#1e1d1e 
-hi Statement            guifg=#1e1d1e gui=none
+hi Statement            guifg=#a5492a gui=none
 hi PreProc              guifg=#1e1d1e gui=none
-hi type                 guifg=#1e1d1e gui=none
+hi type                 guifg=#a5492a gui=none
 hi Underlined           cterm=underline term=underline
 hi Ignore               guifg=#1e1d1e 
 
@@ -58,3 +58,14 @@ hi Pmenu                guifg=#1e1d1e guibg=white
 hi PmenuSel             guifg=#1e1d1e guibg=orange
 hi PmenuSbar            guifg=#1e1d1e guibg=darkgray
 hi PmenuThumb           guifg=#1e1d1e
+
+"Errors
+hi SpellBad             guifg=#1e1d1e guibg=orange
+hi SpellCap             guifg=#1e1d1e guibg=red
+
+hi SyntasticError               guifg=#1e1d1e guibg=red
+hi SyntasticErrorLine           guifg=#1e1d1e guibg=red
+"hi SyntasticWarningLine         guifg=#1e1d1e guibg=red
+hi SyntasticWarningSign         guifg=#1e1d1e guibg=red
+hi SyntasticStyleWarning        guifg=#1e1d1e guibg=red
+

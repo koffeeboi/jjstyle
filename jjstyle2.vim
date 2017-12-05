@@ -62,8 +62,8 @@ hi PmenuThumb           guifg=black
 hi SpellBad             guifg=#b3b3b3 guibg=orange
 hi SpellCap             guifg=#b3b3b3 guibg=red
 
-hi SyntasticError               guifg=#b3b3b3 guibg=red
-hi SyntasticErrorLine           guifg=#b3b3b3 guibg=red
+hi SyntasticError               guifg=white guibg=red 
+hi SyntasticErrorLine           guifg=white guibg=red 
 "hi SyntasticWarningLine         guifg=#b3b3b3 guibg=red
 hi SyntasticWarningSign         guifg=#b3b3b3 guibg=red
 hi SyntasticStyleWarning        guifg=#b3b3b3 guibg=red

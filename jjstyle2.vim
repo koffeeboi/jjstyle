@@ -18,7 +18,7 @@ hi IncSearch            guifg=orange guibg=black
 
 hi SpecialKey           guifg=#b3b3b3 
 hi Directory            guifg=#b3b3b3
-hi Title                guifg=black gui=none 
+hi Title                guifg=green gui=none 
 hi WarningMsg           guifg=red
 hi WildMenu             guifg=black guibg=orange 
 hi ModeMsg              guifg=#b3b3b3  
@@ -26,13 +26,14 @@ hi MoreMsg              ctermfg=darkgreen
 hi Question             guifg=#b3b3b3 gui=none 
 hi NonText              guifg=#b3b3b3  
 
-hi StatusLine           guifg=#b3b3b3    gui=none  
+hi StatusLine           guifg=#b3b3b3  gui=none  
 hi StatusLineNC         guifg=#6f6262  gui=none  
 hi VertSplit            guifg=#6f6262  gui=none 
 
 hi Folded               guifg=#b3b3b3 guibg=#404040
 hi FoldColumn           guifg=#b3b3b3 guibg=#404040
 hi LineNr               guifg=#6f6262
+hi SignColumn           guibg=#4d4d4d 
 
 hi DiffAdd              guibg=darkblue 
 hi DiffChange           guibg=darkmagenta 
@@ -40,7 +41,7 @@ hi DiffDelete           gui=bold guifg=#b3b3b3 guibg=DarkCyan
 hi DiffText             gui=bold guibg=Red
 
 "hi lCursor              guifg=white guibg=black 
-hi CursorLine           gui=reverse
+hi CursorLine           guibg=#454545
 hi Cursor               gui=NONE guibg=green
 
 hi Comment              guifg=#6f6262 
@@ -62,8 +63,8 @@ hi PmenuThumb           guifg=black
 hi SpellBad             guifg=#b3b3b3 guibg=orange
 hi SpellCap             guifg=#b3b3b3 guibg=red
 
-hi SyntasticError               guifg=white guibg=red 
-hi SyntasticErrorLine           guifg=white guibg=red 
+hi SyntasticError               guifg=white   guibg=red
+hi SyntasticErrorLine           guifg=white   guibg=red
 "hi SyntasticWarningLine         guifg=#b3b3b3 guibg=red
 hi SyntasticWarningSign         guifg=#b3b3b3 guibg=red
 hi SyntasticStyleWarning        guifg=#b3b3b3 guibg=red
